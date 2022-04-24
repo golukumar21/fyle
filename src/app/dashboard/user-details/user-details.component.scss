@@ -1,0 +1,41 @@
+@use "../../../styles.scss" as global;
+.dash-head {
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px;
+    .logo {
+      width: 200px;
+      img {
+        max-width: 200px;
+        margin: 15px 20px 0 20px;
+        border-radius: 50%;
+      }
+    }
+    .user-details {
+      padding: 15px 45px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .user-location {
+        display: flex;
+        .location-symbol {
+          font-size: 22px;
+        }
+        .location {
+          padding: 5px 5px;
+        }
+      }
+    }
+  }
+  
+  .repo-link {
+    flex-direction: row;
+    display: flex;
+    margin: 20px 0;
+    .repo-symbol {
+      font-size: 22px;
+    }
+    .repo-link-user {
+      padding: 5px 5px;
+    }
+  }
